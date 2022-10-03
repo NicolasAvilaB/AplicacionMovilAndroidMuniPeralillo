@@ -1,0 +1,13 @@
+[01-May-2020 04:03:47 UTC] PHP Notice:  Undefined index: c2 in /home/cre37351/public_html/appmunicipal/login/crear_perfil.php on line 8
+[04-May-2020 02:41:47 UTC] PHP Notice:  Undefined index: a in /home/cre37351/public_html/appmunicipal/login/crear_perfil.php on line 5
+[04-May-2020 02:41:47 UTC] PHP Notice:  Undefined index: b in /home/cre37351/public_html/appmunicipal/login/crear_perfil.php on line 6
+[04-May-2020 02:41:47 UTC] PHP Notice:  Undefined index: c in /home/cre37351/public_html/appmunicipal/login/crear_perfil.php on line 7
+[04-May-2020 02:41:47 UTC] PHP Notice:  Undefined index: c2 in /home/cre37351/public_html/appmunicipal/login/crear_perfil.php on line 8
+[04-May-2020 02:41:47 UTC] PHP Notice:  Undefined index: d in /home/cre37351/public_html/appmunicipal/login/crear_perfil.php on line 9
+[04-May-2020 02:41:47 UTC] PHP Notice:  Undefined index: e in /home/cre37351/public_html/appmunicipal/login/crear_perfil.php on line 10
+[04-May-2020 02:41:47 UTC] PHP Notice:  Undefined index: f in /home/cre37351/public_html/appmunicipal/login/crear_perfil.php on line 11
+[04-May-2020 02:41:47 UTC] PHP Notice:  Undefined index: g in /home/cre37351/public_html/appmunicipal/login/crear_perfil.php on line 12
+[05-Jul-2020 02:22:53 UTC] PHP Notice:  Undefined index: a in /home/cre37351/public_html/appmunicipal/login/login.php on line 5
+[05-Jul-2020 02:22:53 UTC] PHP Notice:  Undefined index: b in /home/cre37351/public_html/appmunicipal/login/login.php on line 6
+[05-Jul-2020 02:23:02 UTC] PHP Notice:  Undefined index: a in /home/cre37351/public_html/appmunicipal/login/login.php on line 5
+[05-Jul-2020 02:23:02 UTC] PHP Notice:  Undefined index: b in /home/cre37351/public_html/appmunicipal/login/login.php on line 6
