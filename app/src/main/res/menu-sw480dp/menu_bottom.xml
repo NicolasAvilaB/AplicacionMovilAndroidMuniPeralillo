@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Noticias"
+        android:icon="@drawable/home"
+        android:title="@string/noticias"
+        app:exb_color="#3c70a4" />
+        <!-- app:cnb_textColor="#FFF" -->
+        <!-- app:cnb_backgroundColor="#2196F3"-->
+
+    <item
+        android:id="@+id/Consultas"
+        android:icon="@drawable/consulta_ayuda"
+        android:title="@string/municipio2"
+        app:exb_color="#C86930" />
+
+    <item
+        android:id="@+id/Alertas"
+        android:icon="@drawable/alerta"
+        android:title="@string/alertas"
+        app:exb_color="#1BB57A" />
+
+    <item
+        android:id="@+id/Covid19"
+        android:icon="@drawable/salud"
+        android:title="@string/covid19"
+        app:exb_color="#C70039" />
+
+    <item
+        android:id="@+id/Perfil"
+        android:icon="@drawable/cuenta"
+        android:title="@string/perfil"
+        app:exb_color="#857878" />
+</menu>

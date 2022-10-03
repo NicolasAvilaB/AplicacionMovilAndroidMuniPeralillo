@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clover"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:elevation="1dp"
+    android:orientation="vertical"
+    android:scaleType="fitXY"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/fondocovid"
+    android:textAlignment="center">
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="1dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="17dp"
+            android:elevation="1dp"
+            android:gravity="center"
+            android:text="@string/covid19"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:requiresFadingEdge="vertical"
+            android:elevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/rut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_rut_cv"
+                    android:ems="10"
+                    android:layout_marginTop="15sp"
+                    android:inputType="number"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:hint="@string/rut_c19" />
+
+                <EditText
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_nombre_cv"
+                    android:ems="10"
+                    android:layout_marginTop="-30sp"
+                    android:inputType="textPersonName"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:hint="@string/nombre_c19" />
+
+                <EditText
+                    android:id="@+id/correo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_correo_cv"
+                    android:ems="10"
+                    android:layout_marginTop="-30sp"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:inputType="textPersonName"
+                    android:hint="@string/correo_electr_nico_c19" />
+
+                <EditText
+                    android:id="@+id/telefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_telefono_cv"
+                    android:ems="10"
+                    android:layout_marginTop="-30sp"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:inputType="number"
+                    android:hint="@string/tel_fono_c19" />
+
+                <EditText
+                    android:id="@+id/domicilio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_direccion_cv"
+                    android:ems="10"
+                    android:layout_marginTop="-30sp"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:inputType="textPersonName"
+                    android:hint="@string/domicilio_c19" />
+
+                <EditText
+                    android:id="@+id/sintomas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_sintomas_cv"
+                    android:ems="10"
+                    android:layout_marginTop="-30sp"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:inputType="textPersonName"
+                    android:hint="@string/s_ntomas_c19" />
+
+                <EditText
+                    android:id="@+id/dias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_diassintomas_cv"
+                    android:ems="10"
+                    android:layout_marginTop="-30sp"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:inputType="number"
+                    android:hint="@string/d_as_con_s_ntomas" />
+
+                <EditText
+                    android:id="@+id/salud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_antecedentessalud_cv"
+                    android:ems="10"
+                    android:layout_marginTop="-30sp"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:inputType="textPersonName"
+                    android:hint="@string/antecedentes_de_salud" />
+
+                <EditText
+                    android:id="@+id/contacto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_antecedentescontacto_cv"
+                    android:ems="10"
+                    android:layout_marginTop="-30sp"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:inputType="textPersonName"
+                    android:hint="@string/antecedentes_contacto" />
+
+                <EditText
+                    android:id="@+id/comuna"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_comuna_cv"
+                    android:ems="10"
+                    android:layout_marginTop="-30sp"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:inputType="textPersonName"
+                    android:hint="@string/comuna" />
+
+                <EditText
+                    android:id="@+id/pais"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_paisesvisitados_cv"
+                    android:ems="10"
+                    android:layout_marginTop="-30sp"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:inputType="textPersonName"
+                    android:hint="@string/paises_visitados" />
+
+                <Switch
+                    android:id="@+id/red_apoyo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/white"
+                    android:text="El Paciente cuenta con red de Apoyo" />
+
+                <EditText
+                    android:id="@+id/paciente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_pacientevivecon_cv"
+                    android:ems="10"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:inputType="textPersonName"
+                    android:hint="@string/paciente_vive_con" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/examen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/caja_examencovid_cv"
+                    android:ems="10"
+                    android:layout_marginTop="-30dp"
+                    android:paddingStart="92dp"
+                    android:paddingEnd="32dp"
+                    android:textColorHint="@color/whitehint"
+                    android:textColor="@color/white"
+                    android:inputType="textPersonName"
+                    android:hint="@string/examen_covid_19" />
+
+                <Switch
+                    android:id="@+id/conocer_ubicacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/white"
+                    android:text="@string/deseo_que_la_municipalidad_conosca_mi_ubicaci_n" />
+
+                <Button
+                    android:id="@+id/ingresar"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_cov19"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginBottom="20sp"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
