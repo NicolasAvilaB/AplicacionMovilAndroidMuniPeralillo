@@ -4,7 +4,7 @@ App comunal, al cuál permite al usuario comunicarse con la Municipalidad de una
 
 Secciones y funciones principales:
 
-- Registro Usuario (Su datos serán entregados a su Email).
+- Registro Usuario (Datos de registro serán enviado a su Email).
 - Login.
 - Noticias desde Facebook conectada a la App.
 - Contacto a Departamentos del Municipio.
