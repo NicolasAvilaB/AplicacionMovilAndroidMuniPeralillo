@@ -15,6 +15,6 @@ Secciones y funciones principales:
 https://user-images.githubusercontent.com/36216299/193640974-fc347235-ec30-4ba3-9f57-c0e0cc5e48c7.mp4
 
 ## Detalle Base de Datos.
-MySQL - nicolas_socifyd
-- Usuario: nicolas_usersoc
-- Clave: usersocifyd
+MySQL - cre37351_appmunicipal
+- Usuario: cre37351_root
+- Clave: lacomunagana
