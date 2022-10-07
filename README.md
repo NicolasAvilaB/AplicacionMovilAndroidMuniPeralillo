@@ -6,7 +6,7 @@ Secciones y funciones principales:
 
 - Registro Usuario (Datos de registro serán enviado a su Email).
 - Login.
-- Noticias desde Facebook conectada a la App.
+- Noticias de Facebook conectada a la App.
 - Contacto a Departamentos del Municipio.
 - Envío de Alerta de Violencia Intrafamiliar y Alertas comunes dentro de la Comuna.
 - Teléfono de Emergencia presente en cada sección de la App.
