@@ -1,6 +1,6 @@
 # Aplicación Móvil Android MuniPeralillo
 
-App comunal, al cuál permite al usuario comunicarse con la Municipalidad de una forma mas intuitiva,
+App comunal, al cuál permite al usuario comunicarse con la Municipalidad de una forma mas intuitiva, versión de PHP 7.2, trabajado en Android Studio, Adobe XD.
 
 Secciones y funciones principales:
 
@@ -14,3 +14,7 @@ Secciones y funciones principales:
 
 https://user-images.githubusercontent.com/36216299/193640974-fc347235-ec30-4ba3-9f57-c0e0cc5e48c7.mp4
 
+## Detalle Base de Datos.
+MySQL - nicolas_socifyd
+- Usuario: nicolas_usersoc
+- Clave: usersocifyd
