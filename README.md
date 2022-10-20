@@ -4,9 +4,9 @@ App comunal, al cuál permite al usuario comunicarse con la Municipalidad de una
 
 Links de descargas de APK: 
 
-MEGA: https://mega.nz/file/ggEjAIYK#lyEnAU_PkY3EsvBhugeu8-FWvYEef8ATKZq1JnRVRVU
+**MEGA:** https://mega.nz/file/ggEjAIYK#lyEnAU_PkY3EsvBhugeu8-FWvYEef8ATKZq1JnRVRVU
 
-Google Drive: https://drive.google.com/file/d/1OK2NsQ5dS-DQOtEEMugJO0ijpF2aApMF/view
+**Google Drive:** https://drive.google.com/file/d/1OK2NsQ5dS-DQOtEEMugJO0ijpF2aApMF/view
 
 Secciones y funciones principales:
 
